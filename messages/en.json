@@ -1,0 +1,28 @@
+{
+  "Meta": {
+    "title": "Neurons of History",
+    "description": "A free, community-run library of history as a network of connected sources. Not just what happened, but how we know it."
+  },
+  "Home": {
+    "tagline": "Not just what happened, but how we know it.",
+    "intro": "A free, ad-free, community-run library where history is stored as a network of connected people, places, events and sources, and every statement shows where it comes from.",
+    "status": "Under construction",
+    "pilotTitle": "First topic: the Fall of Constantinople, 1453",
+    "pilotText": "Greek, Latin, Italian, Ottoman Turkish and Slavonic accounts that often disagree, placed side by side with their provenance.",
+    "layersTitle": "Every source belongs to one layer",
+    "layers": {
+      "l1": "Primary source",
+      "l2": "Edition / Translation",
+      "l3": "Scholarship",
+      "l4": "Commentary",
+      "ref": "Reference"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "soon": "coming soon"
+  },
+  "Footer": {
+    "license": "Free forever. Open source (AGPL-3.0). Content CC BY-SA 4.0, data CC0."
+  }
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf7;
+  --foreground: #1c1b19;
+  --muted: #6b675f;
+  --line: #e2ded5;
+
+  /* Content layers (PROJECT_CONCEPT §4). Each layer keeps one colour everywhere. */
+  --layer-l1: #8a4b14; /* Primary source: sepia */
+  --layer-l2: #3f6b4a; /* Edition / Translation: green */
+  --layer-l3: #2f5a8f; /* Scholarship: blue */
+  --layer-l4: #7a4a86; /* Commentary: violet */
+  --layer-ref: #5e6166; /* Reference: grey */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #141311;
+    --foreground: #ece9e2;
+    --muted: #a29d93;
+    --line: #2e2c28;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
