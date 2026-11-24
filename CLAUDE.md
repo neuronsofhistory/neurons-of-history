@@ -10,7 +10,8 @@ when it and the code disagree, ask the founder rather than guessing.
 
 ## Stack
 - Next.js (App Router, TypeScript, Tailwind) in `src/`, hosted on Vercel (free tier).
-- Supabase (Postgres, auth, storage), project `neurons-of-history`, region eu-central-1.
+- Supabase (Postgres, auth, storage), project ref `erjsphwhfkxuccmkhkak`, region ap-southeast-1,
+  in the founder's `constantineokribashvili-lab` Supabase account.
   Clients: `src/lib/supabase/{client,server}.ts`. Only the publishable key goes in `NEXT_PUBLIC_*`;
   the secret key never enters the repo or the browser.
 - i18n via next-intl. All user-facing text lives in `messages/<locale>.json`, never hard-coded.
