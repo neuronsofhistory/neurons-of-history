@@ -126,6 +126,8 @@ Each source records:
 
 - **Entity page:** the reading view. Summary, key claims with evidence, sources grouped by layer, connections.
 - **Neuron view:** a local graph centred on one node. Click to expand neighbours step by step; filter by connection type, layer and time.
+  - **Decided (2026-11-24): the main neuron view is 3D (WebGL / three.js).** Organic neurons with branching dendrites and bloom glow; firing a node sends pulses along curved axons; unexplored nodes stay dark until discovered; supporting evidence travels as blue pulses, contradicting as orange; a gold "suggested next" highlight. Reference mockup: https://claude.ai/artifact/W7E8o4zDFMLLPZ3uRP9K1M (2D canvas fallback: https://claude.ai/artifact/XEx5ssoRUDsxbBPJPT5Acf).
+  - Must also offer a plain text list of the same connections (screen readers, phones, weak devices) and respect reduced-motion settings. Detailed interaction, animation and VFX rules to be defined later.
 - **Timeline view:** events and sources over time; zoom from centuries to hours (the siege had a day-by-day timeline).
 - **Map view:** places, with borders and names that change over time.
 - **Faceted browsing:** combine place + time + theme + layer + language, e.g. *"Constantinople, 1452–1453, primary sources, eyewitness only."*

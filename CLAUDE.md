@@ -18,6 +18,13 @@ when it and the code disagree, ask the founder rather than guessing.
   Planned languages are listed in `src/i18n/languages.ts`; English is live, Georgian (ka), Greek (el),
   Turkish (tr) and Russian (ru) are placeholders until translated (Phase 7).
 
+## Visual direction
+- Look & feel: the "Neurons of History" design system (dark "Night" theme first, mosaic gold as the only accent,
+  EB Garamond / IBM Plex Sans / IBM Plex Mono): https://claude.ai/artifact/FtmMjmhLSCV6owHzSX2ySh
+- The neuron view is **3D** (three.js, bloom, organic neurons, firing pulses). Match the reference mockup:
+  https://claude.ai/artifact/W7E8o4zDFMLLPZ3uRP9K1M. Always pair it with an accessible text list and honour
+  `prefers-reduced-motion`.
+
 ## Non-negotiable product rules
 - **Provenance first:** no claim without an evidence link to a source.
 - **Layers stay visually distinct:** L1 primary, L2 edition/translation, L3 scholarship, L4 commentary,
